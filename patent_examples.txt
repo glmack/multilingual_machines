@@ -1,0 +1,78 @@
+original_title_cn   机器处理及文本纠错方法和装置、计算设备以及存储介质
+original_summary_cn 本发明公开了一种机器处理及文本纠错方法和装置、计算设备以及存储介质
+，具体包括错误文本和对应的正确文本的纠错改写对, 以纠错改写对作为训练语料，对机器处理模型
+进行训练，由此准备好适用于文本纠错的机器处理模型。可以通过从日志中挖掘纠错改写对来对机器
+处理模型进行训练，使其适于对文本进行纠错。将第一文本输入到机器处理模型中，得到第二文本，
+即纠错结果文本。另外，还可以使用语言模型或常用词库先判断第一文本是否需要进行纠错。可以使
+用从日志中挖掘出的训练语料来训练语言模型，也可以通过对日志中的文本进行分词、统计来整理常
+用词库。由此，使得能够方便地实现文本纠错
+reference_human1_sentence   The training corpus extracted from a log can be used 
+to train the language model, or the common lexicon can be sorted by 
+segmenting and counting text in the log.
+reference_human1_summary    The invention discloses a machine processing and
+text error correction method and device, a computing device, and a
+storage medium, specifically comprising corrected and rewritten text
+pairs of incorrect  text and corresponding correct text. The corrected
+and rewritten text pairs serving as a training corpus to train the
+machine processing model, thereby preparing a machine processing model
+suitable for text error correction. Through extraction of corrected and
+rewritten text pairs from a log, the machine processing model can be
+trained and thus made fit for text correction by inputting the first text
+into the machine processing model to get the second text, that is the
+error correction result text. In addition, the language model or the
+common lexicon can be used to determine whether the first text needs to
+be corrected. The training corpus extracted from a log can be used to
+train the language model, or the common lexicon can be sorted by
+segmenting and counting text in the log. This is how to easily implement
+text error correction.
+reference_human2_sentence   It can use the practice language material gathered 
+from the diary or daily journal to train the language model, and it can
+also initialize the common vocabulary bank through the segmentation and
+analysis of the diary or daily journal text
+reference_human2_summary"   This invention makes public a machine processing and
+text error correction method and hardware, computing equipment and storage 
+medium, and specifically pairs error text with the corresponding corrected 
+and modified correct text. It uses this text pair as training material for 
+the machine processing model, and from there prepares the machine processing
+model that is applied to the text correction. It can train the machine processing
+model using a diary or daily journal and make it suitable for text correction.
+The first text version is inputted into the machine processing model to get 
+the second text version, which is the corrected text. Additionally, it can 
+also use a stored language model or common vocabulary bank to determine if 
+the first text version needs correction. It can use the practice language 
+material gathered from the diary or daily journal to train the language model,
+and it can also initialize the common vocabulary bank through the segmentation
+and analysis of the diary or daily journal text. Through all this, text 
+correction is conveniently implemented.
+candidate_google_sentence   The language model can be trained using the training 
+corpus extracted from the log, or the common lexicon can be organized by 
+segmenting and counting the text in the log.
+candidate_google_summary    The invention discloses a machine processing and
+text error correction method and device, a computing device and a
+storage medium, and particularly comprises an error correction
+rewriting pair of an error text and a corresponding correct text, and
+an error correction rewriting pair as a training corpus, and a machine
+processing model. Training is performed, thereby preparing a machine
+processing model suitable for text correction. The machine processing
+model can be trained to mine the error correction by mining the error
+correction rewrite pair from the log. The first text is input into the
+machine processing model to obtain a second text, that is, an error
+correction result text. In addition, you can use the language model or
+common lexicon to determine whether the first text needs to be corrected.
+The language model can be trained using the training corpus extracted
+from the log, or the common lexicon can be organized by segmenting and
+counting the text in the log. Thereby, text correction is facilitated.
+candidate_wipo_sentence The training corpus extracted from the log can be 
+used to train the language model and also, through text segmentation and 
+statistical analysis of text in the log compile a lexicon of commonly 
+used words.
+candidate_wipo_summary  The present invention discloses a machine processing and text correction method and device, 
+computing equipment and a storage medium. Specifically comprising corrected and rewritten text pairs of incorrect 
+text and corresponding correct text, the corrected and rewritten text pairs serving as a training corpus for training
+a machine processing model, and in this way developing a machine processing model for use in text correction. 
+Through extraction of corrected and rewritten text pairs from a log, the machine processing model can be trained 
+and thus made fit for text correction by inputting a first text into the machine processing model to obtain a second
+text i.e. a corrected text result. Moreover, a language model or a lexicon of commonly used words can be used to 
+assess whether text needs correction. The training corpus extracted from the log can be used to train the language 
+model and also, through text segmentation and statistical analysis of text in the log compile a lexicon of commonly 
+used words. Thus, text correction can be made easier and more convenient
