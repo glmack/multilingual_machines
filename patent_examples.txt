@@ -3,7 +3,11 @@
         "机器处理及文本纠错方法和装置、计算设备以及存储介质"
     ],
     "original_summary_cn": [
-        "本发明公开了一种机器处理及文本纠错方法和装置、计算设备以及存储介质，具体包括错误文本和对应的正确文本的纠错改写对, 以纠错改写对作为训练语料，对机器处理模型 进行训练，由此准备好适用于文本纠错的机器处理模型。", "可以通过从日志中挖掘纠错改写对来对机器 处理模型进行训练，使其适于对文本进行纠错。", "将第一文本输入到机器处理模型中，得到第二文本，即纠错结果文本。", "另外，还可以使用语言模型或常用词库先判断第一文本是否需要进行纠错。", "可以使用从日志中挖掘出的训练语料来训练语言模型，也可以通过对日志中的文本进行分词、统计来整理常用词库。", "由此，使得能够方便地实现文本纠错。"],
+        "本发明公开了一种机器处理及文本纠错方法和装置、计算设备以及存储介质，具体包括错误文本和对应的正确文本的纠错改写对, 以纠错改写对作为训练语料，对机器处理模型 进行训练，由此准备好适用于文本纠错的机器处理模型。", "可以通过从日志中挖掘纠错改写对来对机器 处理模型进行训练，使其适于对文本进行纠错。", "将第一文本输入到机器处理模型中，得到第二文本，即纠错结果文本。", "另外，还可以使用语言模型或常用词库先判断第一文本是否需要进行纠错。", "可以使用从日志中挖掘出的训练语料来训练语言模型，也可以通过对日志中的文本进行分词、统计来整理常用词库。", "由此，使得能够方便地实现文本纠错。"
+    ],
+    "original_sentence_cn": [
+        "可以使用从日志中挖掘出的训练语料来训练语言模型，也可以通过对日志中的文本进行分词、统计来整理常用词库."
+    ],
     "reference_human1_summary": [
         "The invention discloses a machine processing and text error correction method and device, a computing device, and a storage medium, specifically comprising corrected and rewritten text pairs of incorrect text and corresponding correct text.", "The corrected and rewritten text pairs serving as a training corpus to train the machine processing model, thereby preparing a machine processing model suitable for text error correction.", "Through extraction of corrected and rewritten text pairs from a log, the machine processing model can be trained and thus made fit for text correction by inputting the first text into the machine processing model to get the second text, that is the error correction result text.", "In addition, the language model or the common lexicon can be used to determine whether the first text needs to be corrected.", "The training corpus extracted from a log can be used to train the language model, or the common lexicon can be sorted by segmenting and counting text in the log.", "This is how to easily implement text error correction."
     ],
