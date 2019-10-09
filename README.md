@@ -1,6 +1,6 @@
 [summary](#multilingual_machines) | [usage](#usage) | [run notebooks](#running-the-notebooks)
 ## Measuring Multilingual Machines
-#### Exploring BLEU Scores using Translated Patent Data
+#### Exploring BLEU Scores using Patent Data
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/glmack/multilingual_machines/master?filepath=blob%2Fmaster%2Fmultilingual_machines.ipynb)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
