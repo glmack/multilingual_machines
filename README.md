@@ -22,15 +22,25 @@ How might a researcher or business leader quickly evaluate the quality of machin
 A growing share of patents in the machine learning space is written and filed in Chinese according to a recent report by WIPO (World Intellectual Property Organization), the global organization that governs patents. To explore the basics of BLEU in this multilingual space, this repo uses example data from a recent Chinese patent of an NLP innovation that the e-commerce company Alibaba extended to patent coverage on a global scale. For additional details on the example patent, WIPO's data query tool provides both [English](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2019085779) and [Chinese](https://patentscope.wipo.int/search/zh/detail.jsf?docId=WO2019085779) language versions that you can inspect in your browser. 
 
 #### Usage
-Dependencies are specified in requirements.txt
+*Option 1*: Access on Binder
+Interact with the English language notebooks in a live environment on Binder, which builds a Docker image of this repository. A JupyterHub server hosts the repository's contents that you can access through a reusable link.
 
-pip install -r requirements.txt
-To run the notebooks locally, you will need to have python installed, preferably through anaconda .
+*Option 2*: Access on nbviewer 
+Nbviewer, an open source project under the Project Jupyter initiative, is a web application that renders the notebook as a static HTML web page, and provides a stable link to browse the notebook in this repo.
+
+https://nbviewer.jupyter.org/github/glmack/multilingual_machines/blob/master/multilingual_machines.ipynb
+
+*Option 3*: Clone repo
 
 To clone this repository from a command line, run
 
 git clone https://github.com/glmack/multilingual_machines
 Then cd into the multilingual_machines directory: cd multilingual_machines
+
+Dependencies are specified in requirements.txt
+
+pip install -r requirements.txt
+To run the notebooks locally, you will need to have python installed, preferably through anaconda .
 
 To setup your software environment, you use the provided conda environment:
 
@@ -39,9 +49,3 @@ conda activate multilingual_machines-env
 You can then launch Jupyter in your web browser
 
 jupyter notebook
-
-nbviewer is a web application that lets you enter the URL of a Jupyter Notebook file, renders that notebook as a static HTML web page, and gives you a stable link to that page which you can share with others. nbviewer also supports browsing collections of notebooks (e.g., in a GitHub repository) and rendering notebooks in other formats (e.g., slides, scripts).
-
-nbviewer is an open source project under the larger Project Jupyter initiative along with other projects like Jupyter Notebook, JupyterLab, and JupyterHub.
-
-https://nbviewer.jupyter.org/github/glmack/multilingual_machines/blob/master/multilingual_machines.ipynb
