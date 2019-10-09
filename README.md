@@ -1,4 +1,4 @@
-**[summary](#multilingual_machines) | [usage](#usage) | **[run notebooks](#running-the-notebooks)
+[summary](#multilingual_machines) | [usage](#usage) | [run notebooks](#running-the-notebooks)
 ## Measuring Multilingual Machines
 #### Exploring BLEU Scores using Translated Patent Data
 
