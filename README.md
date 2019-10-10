@@ -20,21 +20,27 @@ A growing share of patents in the machine learning space is written and filed in
 
 #### Usage for notebooks
 English 
-*Option 1*: Access [English language notebook via Binder](https://mybinder.org/v2/gh/glmack/multilingual_machines/master?filepath=blob%2Fmaster%2Fmultilingual_machines_en.ipynb) which builds a Docker image of this repository on a JupyterHub server that hosts the repository's contents
+*Option 1*: Access [English language notebook via Binder](https://mybinder.org/v2/gh/glmack/multilingual_machines/master?filepath=blob%2Fmaster%2Fmultilingual_machines_en.ipynb) which builds a Docker image of this repository on a JupyterHub server
 
-Access [Chinese language notebook via Binder](https://mybinder.org/v2/gh/glmack/multilingual_machines/master?   filepath=blob%2Fmaster%2Fmultilingual_machines_ch.ipynb) which builds a Docker image of this repository on a JupyterHub server that hosts the repository's contents
+Access [Chinese language notebook via Binder](https://mybinder.org/v2/gh/glmack/multilingual_machines/master?   filepath=blob%2Fmaster%2Fmultilingual_machines_ch.ipynb) which builds a Docker image of this repository on a JupyterHub server
 
 *Option 2*: Access on [English language notebook via nbviewer](https://nbviewer.jupyter.org/github/glmack/multilingual_machines/blob/master/multilingual_machines_en.ipynb)
-Nbviewer, an open source project under the Project Jupyter initiative, is a web application that renders the notebook as a static HTML web page, and provides a stable link to browse the notebook in this repo.
+, an open source web application that renders the notebook as a static HTML web page to browse the notebook
 
 Access on [Chinese language notebook via nbviewer](https://nbviewer.jupyter.org/github/glmack/multilingual_machines/blob/master/multilingual_machines_ch.ipynb)
-Nbviewer, an open source project under the Project Jupyter initiative, is a web application that renders the notebook as a static HTML web page, and provides a stable link to browse the notebook in this repo.
+, an open source web application that renders the notebook as a static HTML web page to browse the notebook
 
 *Option 3*: Clone repository from command line:
 1. Clone repository: git clone https://github.com/glmack/multilingual_machines
+
 2. Navigate into multilingual_machines directory: cd multilingual_machines
+
 3. Set up software environment:
       conda env create -f environment.yml
       conda activate default-env
- 4. Run English language notebook: jupyter notebook multilingual_machines/blob/master/multilingual_machines_en.ipynb
- 5. Run Chinese language notebook: jupyter notebook multilingual_machines/blob/master/multilingual_machines_ch.ipynb
+ 
+4. Run English language notebook: 
+      jupyter notebook multilingual_machines/blob/master/multilingual_machines_en.ipynb
+ 
+5. Run Chinese language notebook: 
+      jupyter notebook multilingual_machines/blob/master/multilingual_machines_ch.ipynb
