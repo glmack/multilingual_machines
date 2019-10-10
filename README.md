@@ -1,4 +1,4 @@
-[summary](#summary) | [run English language notebook](#usage) [run English language notebook](#usage)
+[summary](#summary) | [usage](#usage)
 ## Measuring Multilingual Machines
 #### Exploring BLEU Scores using Patent Data
 
