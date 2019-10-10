@@ -22,7 +22,7 @@ A growing share of patents in the machine learning space is written and filed in
 English 
 *Option 1*: Access [English language notebook via Binder](https://mybinder.org/v2/gh/glmack/multilingual_machines/master?filepath=blob%2Fmaster%2Fmultilingual_machines_en.ipynb) which builds a Docker image of this repository on a JupyterHub server
 
-Access [Chinese language notebook via Binder](https://mybinder.org/v2/gh/glmack/multilingual_machines/master?   filepath=blob%2Fmaster%2Fmultilingual_machines_ch.ipynb) which builds a Docker image of this repository on a JupyterHub server
+Access [Chinese language notebook via Binder](https://mybinder.org/v2/gh/glmack/multilingual_machines/master?filepath=blob%2Fmaster%2Fmultilingual_machines_ch.ipynb) which builds a Docker image of this repository on a JupyterHub server
 
 *Option 2*: Access on [English language notebook via nbviewer](https://nbviewer.jupyter.org/github/glmack/multilingual_machines/blob/master/multilingual_machines_en.ipynb)
 , an open source web application that renders the notebook as a static HTML web page to browse the notebook
