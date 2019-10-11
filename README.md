@@ -2,12 +2,12 @@
 ## Measuring Multilingual Machines
 #### Exploring BLEU Scores using Patent Data
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/glmack/multilingual_machines/master?filepath=blob%2Fmaster%2Fmultilingual_machines.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/glmack/multilingual_machines/master?filepath=blob%2Fmaster%2Fmultilingual_machines_en.ipynb)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 <img src="headline_img.jpg" width=80% align="middle">
 
-This repo accompanies the article titled "Multilingual Machine Learning"
+This repo accompanies the article ["Multilingual Machine Learning"](https://towardsdatascience.com/multilingual-machine-learning-972de4248218)
 
 #### Summary
 This repo accompanies an article that takes an initial dive into the lessons, implementations, and limits of BLEU, a machine translation evaluation algorithm, using examples drawn from multilingual patent documents. 
@@ -24,10 +24,10 @@ English
 
 Access [Chinese language notebook via Binder](https://mybinder.org/v2/gh/glmack/multilingual_machines/master?filepath=blob%2Fmaster%2Fmultilingual_machines_ch.ipynb) which builds a Docker image of this repository on a JupyterHub server
 
-*Option 2*: Access on [English language notebook via nbviewer](https://nbviewer.jupyter.org/github/glmack/multilingual_machines/blob/master/multilingual_machines_en.ipynb)
+*Option 2*: Access [English language notebook via nbviewer](https://nbviewer.jupyter.org/github/glmack/multilingual_machines/blob/master/multilingual_machines_en.ipynb)
 , an open source web application that renders the notebook as a static HTML web page to browse the notebook
 
-Access on [Chinese language notebook via nbviewer](https://nbviewer.jupyter.org/github/glmack/multilingual_machines/blob/master/multilingual_machines_ch.ipynb)
+Access [Chinese language notebook via nbviewer](https://nbviewer.jupyter.org/github/glmack/multilingual_machines/blob/master/multilingual_machines_ch.ipynb)
 , an open source web application that renders the notebook as a static HTML web page to browse the notebook
 
 *Option 3*: Clone repository from command line:
